@@ -1,0 +1,2 @@
+#!/bin/bash
+curl "$url/users/me" -X GET -H 'Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZGVkMzY2MWE1YWQzYTMwMDBhMGMwNDAiLCJpYXQiOjE1NzU4Mzk5MTB9.F0tNx2gnsuxw4FI5RTTP4NTPpqFowvHAdu7zzAbfqtA'

@@ -1,0 +1,33 @@
+{
+  "name": "dynamic",
+  "version": "1.0.0",
+  "description": "project for tranport dynamic price calculation",
+  "main": "index.js",
+  "repository": "github.com/antonnazarenko/dynamic",
+  "author": "antonNazarenko",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "debug": "^4.1.1",
+    "env-cmd": "^10.0.1",
+    "express": "^4.17.1",
+    "express-useragent": "^1.0.13",
+    "jsdoc": "^3.6.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.3.5",
+    "mongoose": "^5.7.12",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.5",
+    "validator": "^12.1.0"
+  },
+  "scripts": {
+    "start": "DEBUG=dynamic:* env-cmd -f ./.env node ./lib/index.js",
+    "start-dev": "DEBUG=dynamic:* env-cmd -f ./.env  nodemon ./lib/index.js",
+    "api-doc": "rm -rf out && jsdoc ./lib/router/ && open out/index.html",
+    "run-terminal": "env-cmd -f ./terminal/.env node ./terminal "
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.1"
+  }
+}
