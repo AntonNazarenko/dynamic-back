@@ -19,7 +19,7 @@
     "mongoose": "^5.7.12",
     "request": "^2.88.0",
     "request-promise": "^4.2.5",
-    "validator": "^12.1.0"
+    "validator": "^13.7.0"
   },
   "scripts": {
     "start": "DEBUG=dynamic:* env-cmd -f ./.env node ./lib/index.js",
